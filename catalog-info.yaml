@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: this-is-another-test
+  title: this is another test
+  description: "test description "
+  annotations:
+    github.com/project-slug: bcgov/mlg-test-repo-3
+    backstage.io/techdocs-ref: dir:.
+    developer.gov.bc.ca/source_template: default/docs-template-pr
+    backstage.io/source-template: template:default/docs-template-pr
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: developer-experience
